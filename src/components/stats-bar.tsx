@@ -1,8 +1,8 @@
 const stats = [
   { value: "40+", label: "Years in Africa" },
   { value: "3", label: "Countries" },
-  { value: "25+", label: "Manufacturer Partners" },
-  { value: "200+", label: "Products" },
+  { value: "30+", label: "Manufacturer Partners" },
+  { value: "300+", label: "Products" },
 ];
 
 const StatsBar = () => (

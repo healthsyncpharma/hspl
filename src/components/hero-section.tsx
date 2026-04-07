@@ -9,19 +9,19 @@ const HeroSection = () => (
     <div className="container mx-auto py-24 px-4 md:px-8 relative z-10">
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <div className="max-w-2xl">
-          <div className="inline-flex items-center gap-2 mb-8 animate-fade-up">
+          {/*<div className="inline-flex items-center gap-2 mb-8 animate-fade-up">
             <span className="w-8 h-px bg-secondary"></span>
-            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-secondary">Pharmaceutical Wholesale Since 1984</span>
-          </div>
-          
+            <span className="text-xs font-semibold tracking-[0.15em] uppercase text-secondary"></span>
+          </div>*/}
+
           <h1 className="font-display font-semibold leading-[1.1] text-slate-800 mb-6 animate-fade-up text-4xl md:text-5xl lg:text-6xl [animation-delay:100ms] tracking-tight">
             Quality Medicines From <span className="text-primary font-medium">Global Partners</span> to Africa
           </h1>
-          
+
           <p className="leading-relaxed text-slate-500 mb-10 animate-fade-up max-w-xl text-lg [animation-delay:200ms] font-body">
             HealthSync Pharma Ltd sources pharmaceuticals from leading manufacturers across Pakistan, India, Europe, and Bangladesh — delivering reliable supply to healthcare providers in Zambia and East Africa.
           </p>
-          
+
           <div className="flex flex-wrap items-center gap-4 animate-fade-up [animation-delay:300ms]">
             <a
               href="#services"
@@ -49,7 +49,7 @@ const HeroSection = () => (
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                 <Globe2 className="w-5 h-5" />
               </div>
-              25+ Partners
+              30+ Partners
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ const HeroSection = () => (
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent mix-blend-multiply" />
           </div>
-          
+
           <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-[1.5rem] shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)] animate-fade-up [animation-delay:700ms]">
             <div className="flex items-center gap-5">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary font-display font-bold text-2xl">

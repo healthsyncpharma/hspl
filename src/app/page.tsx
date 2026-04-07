@@ -23,7 +23,7 @@ export default function Home() {
         <ServicesSection />
         <ManufacturersSection />
         <PresenceSection />
-        <CareersSection />
+        {/*<CareersSection />*/}
         <ContactSection />
       </div>
       <Footer />
