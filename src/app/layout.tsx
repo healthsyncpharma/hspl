@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "HealthSync Pharma Ltd | Pharmaceutical Wholesale in Zambia",
   description: "HealthSync Pharma Ltd - Zambia's modern wholesale pharmaceutical distributor. Sourcing quality medicines from global manufacturers since 1984.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.svg",
   },
 };
 
