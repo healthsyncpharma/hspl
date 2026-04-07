@@ -87,7 +87,7 @@ const PresenceSection = () => (
   <section id="presence" className="section-padding bg-white">
     <div className="container mx-auto px-4 md:px-8">
       <div className="max-w-3xl mx-auto text-center mb-14 md:mb-16">
-        <p className="text-xs font-semibold tracking-[0.15em] uppercase text-secondary mb-4">Our Presence</p>
+        <span className="text-xs font-semibold tracking-[0.15em] uppercase text-secondary">Our Presence</span>
         <h2 className="font-display font-semibold text-slate-900 text-3xl md:text-4xl leading-tight mb-5">
           Operating Across East & Southern Africa
         </h2>
@@ -95,6 +95,7 @@ const PresenceSection = () => (
           We operate through trusted group companies across Uganda, Rwanda, and Zambia, with a strong regional distribution history since 1984.
         </p>
       </div>
+
 
       <div className="grid lg:grid-cols-[1.1fr_1fr] gap-10 xl:gap-14 items-start">
         <div className="rounded-3xl bg-slate-50 p-3 sm:p-4 overflow-hidden">
