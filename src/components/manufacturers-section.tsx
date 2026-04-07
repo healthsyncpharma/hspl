@@ -45,7 +45,7 @@ const ManufacturersSection = () => (
           Global Manufacturer Network
         </h2>
         <p className="text-slate-500 leading-relaxed text-lg max-w-2xl mx-auto font-body">
-          We source from GMP-certified manufacturers globally, ensuring quality and reliability across our entire supply chain.
+          We partner with GMP-certified manufacturers in Uganda and Rwanda, ensuring quality and reliability across our pharmaceutical supply chain.
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-4 md:gap-6">
@@ -72,9 +72,6 @@ const ManufacturersSection = () => (
             <div className="absolute bottom-0 left-0 right-0 bg-white/95 translate-y-full group-hover:translate-y-0 transition-transform duration-300 py-2 px-2 text-center backdrop-blur-sm border-t border-slate-100">
               <p className="text-[10px] font-semibold text-slate-800 leading-tight truncate">
                 {m.name}
-              </p>
-              <p className="text-[9px] text-primary mt-0.5">
-                {m.regions.join(", ")}
               </p>
             </div>
           </div>
