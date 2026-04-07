@@ -9,7 +9,7 @@ const pillars = [
   {
     icon: Globe,
     title: "Global Sourcing Network",
-    desc: "Partnerships with manufacturers in Pakistan, India, Hungary, the Netherlands, and Bangladesh — covering a broad therapeutic range.",
+    desc: "Partnerships with manufacturers in Pakistan, India, China, Hungary, the Netherlands, and Bangladesh — covering a broad therapeutic range.",
   },
   {
     icon: Award,
