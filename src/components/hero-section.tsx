@@ -19,7 +19,7 @@ const HeroSection = () => (
           </h1>
 
           <p className="leading-relaxed text-slate-500 mb-10 animate-fade-up max-w-xl text-lg [animation-delay:200ms] font-body">
-            HealthSync Pharma Ltd sources pharmaceuticals from leading manufacturers across Pakistan, India, China, Europe, and Bangladesh — delivering reliable supply to healthcare providers in Zambia and East Africa.
+            HealthSync Pharma Ltd sources pharmaceuticals from leading manufacturers across Pakistan, India, China, Europe, UK, and Bangladesh — delivering reliable supply to healthcare providers in Zambia and East Africa.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 animate-fade-up [animation-delay:300ms]">
