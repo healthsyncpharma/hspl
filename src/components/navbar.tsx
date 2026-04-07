@@ -26,17 +26,17 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled 
-          ? "bg-white/95 backdrop-blur-md shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] py-3" 
+        scrolled
+          ? "bg-white/95 backdrop-blur-md shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] py-3"
           : "bg-transparent py-5"
       }`}
     >
       <div className="container mx-auto flex items-center justify-between px-4 md:px-8">
         <a href="#home" className="flex items-center gap-3 group relative">
-          <div className="relative w-[160px] h-[36px] sm:w-[200px] sm:h-[44px] md:w-[240px] md:h-[52px] transition-transform duration-300 group-hover:scale-[1.02]">
-            <Image 
-              src="/logo.svg" 
-              alt="HealthSync Pharma" 
+          <div className="relative w-[280px] h-[60px] sm:w-[300px] sm:h-[54px] md:w-[340px] md:h-[62px] transition-transform duration-300 group-hover:scale-[1.02]">
+            <Image
+              src="/logo.svg"
+              alt="HealthSync Pharma"
               fill
               className="object-contain object-left"
               priority
@@ -56,7 +56,7 @@ const Navbar = () => {
               </a>
             ))}
           </div>
-          
+
           <a
             href="#contact"
             className="bg-primary/10 text-primary hover:bg-primary hover:text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300"
@@ -77,7 +77,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div 
+      <div
         className={`lg:hidden absolute top-full left-0 right-0 bg-white border-t border-slate-100 px-6 py-6 shadow-xl transition-all duration-300 origin-top flex flex-col gap-1 ${
           open ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"
         }`}
