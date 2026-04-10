@@ -39,6 +39,7 @@ const Footer = () => (
           <div className="space-y-4 text-base text-slate-400 font-body">
             <p>Katima Mulilo Road Plot No.109/A<br />Lusaka, Zambia</p>
             <p><a href="tel:+260776352129" className="hover:text-primary transition-colors">+260-776352129</a></p>
+            <p><a href="tel:+260776220059" className="hover:text-primary transition-colors">+260-776220059</a></p>
             <a href="mailto:info@healthsyncpharma.com" className="block hover:text-primary transition-colors">
               info@healthsyncpharma.com
             </a>
@@ -90,6 +91,17 @@ const Footer = () => (
             >
               <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
                 <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.83a8.28 8.28 0 004.76 1.5v-3.4a4.85 4.85 0 01-1-.24z" />
+              </svg>
+            </a>
+            <a
+              href="https://youtube.com/@healthsyncpharmalimited"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-300 hover:text-white hover:bg-primary transition-all duration-300"
+              aria-label="YouTube"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
               </svg>
             </a>
           </div>

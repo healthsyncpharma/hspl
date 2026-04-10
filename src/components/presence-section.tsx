@@ -47,7 +47,7 @@ const countries: CountryInfo[] = [
     name: "Zambia",
     iso3: "ZMB",
     tone: "primary",
-    companies: [{ name: "HealthSync Pharma Ltd", est: "2024" }],
+    companies: [{ name: "HealthSync Pharma Ltd", est: "2026" }],
   },
 ];
 

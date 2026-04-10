@@ -126,7 +126,7 @@ const ContactSection = () => {
                 </p>
               </div>
             </div>
-            
+
             <div className="group bg-white rounded-2xl p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.03)] hover:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] transition-all duration-300 flex items-start gap-5">
               <div className="w-12 h-12 rounded-full bg-primary/10 group-hover:bg-primary/20 flex items-center justify-center shrink-0 transition-colors duration-300">
                 <Phone className="text-primary w-5 h-5" />
@@ -137,7 +137,7 @@ const ContactSection = () => {
                 <a href="tel:+260776220059" className="block text-base text-slate-500 hover:text-primary transition-colors font-body">+260-776220059</a>
               </div>
             </div>
-            
+
             <div className="group bg-white rounded-2xl p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.03)] hover:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] transition-all duration-300 flex items-start gap-5">
               <div className="w-12 h-12 rounded-full bg-slate-100 group-hover:bg-secondary/10 flex items-center justify-center shrink-0 transition-colors duration-300">
                 <Mail className="text-slate-600 group-hover:text-secondary w-5 h-5 transition-colors duration-300" />
