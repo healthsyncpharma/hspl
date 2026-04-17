@@ -38,7 +38,7 @@ const Footer = () => (
           <h4 className="font-display font-semibold text-white text-base mb-6">Contact</h4>
           <div className="space-y-4 text-base text-slate-400 font-body">
             <p>Katima Mulilo Road Plot No.109/A<br />Lusaka, Zambia</p>
-            <p><a href="tel:+260776352129" className="hover:text-primary transition-colors">+260-776352129</a></p>
+            <p><a href="tel:+260767526212" className="hover:text-primary transition-colors">+260-767526212</a></p>
             <p><a href="tel:+260776220059" className="hover:text-primary transition-colors">+260-776220059</a></p>
             <a href="mailto:info@healthsyncpharma.com" className="block hover:text-primary transition-colors">
               info@healthsyncpharma.com
