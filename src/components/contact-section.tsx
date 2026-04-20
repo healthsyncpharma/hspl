@@ -121,9 +121,9 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="font-display font-semibold text-slate-800 mb-1.5 text-lg">Office</h3>
-                <p className="text-base text-slate-500 leading-relaxed font-body">
+                <a href="https://maps.app.goo.gl/em8UC1bHwzGvEdEFA" target="_blank" rel="noopener noreferrer" className="text-base text-slate-500 hover:text-primary transition-colors font-body leading-relaxed block">
                   Katima Mulilo Road Plot No.109/A,<br />Lusaka, Zambia
-                </p>
+                </a>
               </div>
             </div>
 
@@ -148,6 +148,19 @@ const ContactSection = () => {
                   info@healthsyncpharma.com
                 </a>
               </div>
+            </div>
+
+            <div className="rounded-2xl overflow-hidden shadow-[0_4px_20px_-10px_rgba(0,0,0,0.03)] hover:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] transition-all duration-300">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.808367704813!2d28.3158335!3d-15.3868613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19408b9534f7fa6f%3A0xa94f571917150f0a!2sHealthsync%20Pharma%20Limited!5e0!3m2!1sen!2s!4v1776682594996!5m2!1sen!2s"
+                width={600}
+                height={450}
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-[250px]"
+              />
             </div>
           </div>
         </div>
