@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
+      <head>
+        <script
+          src="https://chatebot.com/embed/019db48d-9acb-71ff-8557-f3a1fa0fcae3.js"
+          defer
+        />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
